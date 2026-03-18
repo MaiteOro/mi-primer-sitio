@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis Hobbies - Detalle</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #fff; color: #333; }
+        header { background: #28cfe5; color: white; padding: 2rem; text-align: center; }
+        main { padding: 20px; max-width: 850px; margin: auto; }
+        h2 { color: #ed2ec4; text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin: 30px 0; }
+        th, td { border: 1px solid #ddd; padding: 15px; text-align: left; }
+        th { background: #fce7f3; color: #ed2ec4; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
+        .gallery-item { border: 2px solid #28cfe5; border-radius: 10px; overflow: hidden; text-align: center; }
+        .gallery-item img { width: 100%; height: auto; display: block; }
+        .gallery-item p { padding: 10px; background: #f0fdff; margin: 0; font-weight: bold; }
+        .back-link { display: inline-block; margin-top: 20px; color: #28cfe5; font-weight: bold; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mis Intereses y Pasiones</h1>
+    </header>
+
+    <main>
+        <h2>¿Qué hago en mi tiempo libre?</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Actividad</th>
+                    <th>Frecuencia</th>
+                    <th>¿Por qué me gusta?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maquillaje</td>
+                    <td>Fines de semana</td>
+                    <td>Es mi canvas para experimentar con colores.</td>
+                </tr>
+                <tr>
+                    <td>Ver Series</td>
+                    <td>Diario por la noche</td>
+                    <td>Me inspira para crear mis propios guiones.</td>
+                </tr>
+                <tr>
+                    <td>Moda/Ropa</td>
+                    <td>Siempre</td>
+                    <td>Refleja mi personalidad digital y física.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Galería Visual</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img/maquillaje.jpg" alt="Maquillaje artístico">
+                <p>Maquillaje</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/series.jpg" alt="Viendo mis series favoritas">
+                <p>Series</p>
+            </div>
+            <div class="gallery-item">
+                <img src="img/amigos.jpg" alt="Salida con mis amigos">
+                <p>Amigos</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← Volver al Inicio</a>
+    </main>
+
+</body>
+</html>
